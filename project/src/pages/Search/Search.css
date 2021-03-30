@@ -1,0 +1,76 @@
+.search{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .search_form{
+    margin-top: 45px;
+    padding: 12px 8px;
+    background-color: #fff;
+  }
+  .search_form>input{
+    height: 35px;
+    outline: none;
+    padding: 0 4px;
+    border-radius: 2px;
+    font-weight: bold;
+  }
+  input.search_input{
+    float: left;
+    width: 79%;
+    font-size: 14px;
+    border: 4px solid #f2f2f2;
+    color: #333;
+    background-color: #f2f2f2;
+  }
+  input.search_submit{
+    float: right;
+    width: 18%;
+    font-size: 16px;
+    border: 4px solid #02a774;
+    color: #fff;
+    background-color: #02a774;
+  }
+  
+  .list_container{
+    background-color: #fff;
+  }
+  .list_li{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 1px solid #bcbcbc;
+  }
+  .item_left{
+    margin-right: 10px;
+  }
+  .restaurant_img{
+    width: 50px;
+    height: 50px;
+    display: block;
+  }
+  .item_right{
+    font-size: 12px;
+    flex: 1;
+  }
+  .item_right_text p{
+    font-size: 10px;
+    color: #666;
+  }
+  .item_right_text p:first-child{
+    font-size: 15px;
+    font-weight: 700;
+    color: #333;
+  }
+  .item_right_text p:nth-child(2){
+    margin-top: 8px;
+    margin-bottom: 6px;
+  }
+  
+  .search_none{
+    margin: 0 auto;
+    color: #333;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 0.125rem;
+  }
